@@ -1,0 +1,105 @@
+.quiz{
+    border: 2px solid black;
+    width: 300px;
+    padding: 5px;
+    
+    margin-left: 220px;
+    margin-top: 55px;
+    box-shadow: inset;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+    
+}
+
+body {
+    background: linear-gradient(to bottom, #edf0eb, #06f006);
+    margin-top: auto;
+    
+  }
+  
+  
+.h-1{
+    /* background-color: azure; */
+   
+    margin-top: auto;
+    background: linear-gradient(to bottom, #67c20c, #090a09);
+    text-align: center;
+
+    height: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+    
+
+
+}
+
+
+#btn{
+     margin: 2px;
+     padding: 3px; 
+    width: 100px;
+    
+    color: black;
+    background: linear-gradient(to bottom, #999eaa, #61d361);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+
+#div-2{
+   color: #ec2121;
+text-align: center;
+font-size: large;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+@media (max-width: 1600px) {
+    #div-2 {
+      font-size: 1.2rem;
+      margin: 1em;
+    }
+    #btn {
+      width: 60px;
+      margin: 0.5em;
+    }
+    .quiz {
+      width: 40%;
+      margin: 1em;
+    margin-left: 220px;
+    }
+    body {
+      background: linear-gradient(to bottom, #edf0eb, #06f006);
+      margin: 0;
+    }
+  }
+  
+  @media (max-width: 400px) {
+    #div-2 {
+      font-size: 1rem;
+      margin: 0.5em;
+    }
+    #btn {
+      width: 60px;
+      margin: 0.2em;
+    }
+    .quiz {
+      width: 80%;
+      margin: 0.5em;
+    }
+  }
+  
+  @media (max-width: 200px) {
+    #div-2 {
+      font-size: 0.8rem;
+      margin: 0.2em;
+    }
+    #btn {
+      width: 60px;
+      margin: 0.1em;
+    }
+    .quiz {
+      width: 70%;
+      margin: 0.2em;
+    }
+  }
